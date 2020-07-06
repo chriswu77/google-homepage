@@ -1,0 +1,162 @@
+body {
+    font-family: arial,sans-serif;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+nav > ul > a {
+    padding: 0 6px;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover i {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.nav-container {
+display: flex;
+padding: 15px;
+justify-content: space-between;
+align-items: center;
+font-size: 13px;
+}
+
+/* font awesome for google products button */
+.fa-th {
+    font-size: 18px;
+    vertical-align: -10%;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.fa-th:hover {
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.sign-in-button {
+    color: white;
+    font-weight: 600;
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    padding: 5px 10px;
+    margin: 0 6px;
+    border-radius: 2px;
+}
+
+#logo {
+display: block;
+margin: 0 auto;
+padding-top: 160px;
+padding-bottom: 25px;
+}
+
+#searchform {
+    height: 44px;
+    width: 582px;
+    margin: 0 auto;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+
+.form-container {
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.magnify-glass {
+    color: #9AA0A6;
+    fill: currentColor;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+
+.mic-icon {
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    height: 20px;
+    width: 20px;
+    background-size: 20px;
+}
+
+.mic-icon:hover {
+    cursor: pointer;
+}
+
+#searchbar {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    font-size: 16px;
+}
+
+#searchbar:focus {
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 272px;
+    margin: 30px auto 0 auto;
+    
+}
+
+.button-style {
+    padding: 0 14px;
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-style:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+}
+
+footer > div > a {
+    color: #5f6368;
+    padding-left: 27px;
+}
+
+.footer-bar-2 {
+    padding-right: 27px;
+}
